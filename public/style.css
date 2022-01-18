@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    background-color: #0f1720;
+    margin-top: 20px;
+  }
+
+  /* Create two equal columns that floats next to each other */
+
+  .column {
+    float: left;
+    width: 40%;
+    padding: 20px;
+    height: auto; /* Should be removed. Only for demonstration */
+    background-color:#131d28;
+    border-radius: 20px;
+    border: 1px solid #a5c3e4b2;
+;
+    margin: 1%;
+  }
+  .text-1{
+      color: beige;
+      font-weight: 100;
+      font-size: 20px;
+
+  }
+  .text-2{
+      color: beige;
+      font-size: 20px;
+      margin: 4px;
+    background-color:#131d28;
+
+  }
+  .hari{
+      font-size: 25px;
+      margin: 1px;
+      margin-left: 20px;
+      color: beige;
+
+  }
+  .matkul{
+      margin-top: 20px;
+      padding-bottom: 5px;
+      color: beige;
+      font-size: 25px;
+      margin: 1px;
+      margin-left: 20px;
+      margin-bottom: 5px;
+      font-weight: 200;
+
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
