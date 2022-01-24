@@ -31,7 +31,7 @@ Route::get('/test', function () {
 });
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    return redirect ()->route('data-matkul');
 })->middleware(['auth'])->name('dashboard');
 
 require __DIR__.'/auth.php';

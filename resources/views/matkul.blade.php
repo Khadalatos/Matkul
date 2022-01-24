@@ -11,10 +11,11 @@
             @auth
                 <a href="{{ url('/data-matkul') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Tambahkan Data</a>
             @else
-                <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
+                <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline"><button class="btnlogin">Log in</button></a>
+
 
                 @if (Route::has('register'))
-                    <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register</a>
+                    <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline"><button class="btnlogot">Register</button></a>
                 @endif
             @endauth
         </div>
@@ -146,7 +147,7 @@
   @endif
 </div>
 
-
+<br><br><br>
 
 
 </body>

@@ -48,6 +48,29 @@
       font-weight: 200;
 
   }
+  .btnlogin{
+    background-color: #4CAF50; /* Green */
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .btnlogot{
+    background-color: #FA8072;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+  }
   /* Clear floats after the columns */
   .row:after {
     content: "";
